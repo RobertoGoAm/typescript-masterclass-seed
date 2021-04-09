@@ -2,6 +2,7 @@
   "extends": "../tsconfig-base",
   "compilerOptions": {
     "noImplicitAny": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "inlineSourceMap": true
   }
 }
