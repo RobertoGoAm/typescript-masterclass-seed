@@ -3,6 +3,8 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "noEmitOnError": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }
