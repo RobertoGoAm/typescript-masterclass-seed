@@ -5,8 +5,8 @@
     "declaration": true,
     "declarationDir": "./@types",
     "target": "es5",
+    "lib": ["es6", "dom"],
     "module": "commonjs",
-    "lib": ["dom", "es6"],
     "outDir": "dist",
     "noImplicitThis": true,
     "typeRoots": [
