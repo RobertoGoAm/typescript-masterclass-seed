@@ -18,5 +18,9 @@
     // "listFiles": true
     // "listEmittedFiles": true
     // "pretty": true
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true
   }
 }
