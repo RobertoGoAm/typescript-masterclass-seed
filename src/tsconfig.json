@@ -1,10 +1,17 @@
 {
   "extends": "../tsconfig-base",
   "compilerOptions": {
-    "noImplicitAny": true,
     "noEmitOnError": true,
     "inlineSourceMap": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    // all of these
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true
   }
 }
